@@ -20,7 +20,4 @@ VitalStatus evaluateVitals(const VitalSigns& vitals);
 
 void printAlert(VitalStatus status);
 void blinkIndicator();
-int vitalsOk(float temperature, float pulseRate, float spo2);#pragma once
-
 int vitalsOk(float temperature, float pulseRate, float spo2);
-
